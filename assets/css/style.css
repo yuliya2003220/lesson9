@@ -1,0 +1,161 @@
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+input[type=text] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+p, h1, h2, h3, h4, h5, h6, body {
+  margin: 0;
+}
+
+.btn.orange {
+  color: #FF3D00;
+  border: 1px solid #FF3D00;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.4s;
+}
+.btn.orange:hover {
+  color: #FF3D00;
+  border: 1px solid #FF3D00;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.4s;
+  color: #fff;
+  background-color: #FF3D00;
+  cursor: pointer;
+}
+.btn.blue {
+  color: #0085FF;
+  border: 1px solid #0085FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.4s;
+}
+.btn.blue:hover {
+  color: #0085FF;
+  border: 1px solid #0085FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.4s;
+  color: #fff;
+  background-color: #0085FF;
+  cursor: pointer;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.select, body footer .container, body .forms, body .cards, body .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  background: #F7F7F7;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 0;
+}
+body header .burger-menu .line {
+  width: 20px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 3px;
+}
+body header .burger-menu .line:last-child {
+  margin: 0;
+}
+body header h1 {
+  text-transform: uppercase;
+  transition: 0.5s;
+  font-size: 24px;
+}
+body header h1.active {
+  color: #EF5DA8;
+}
+body header h1:hover {
+  color: #FF3D00;
+  cursor: pointer;
+}
+body header nav svg:first-child {
+  margin-right: 20px;
+}
+body header nav svg:hover {
+  scale: 1.2;
+}
+body .main {
+  align-items: stretch;
+}
+body .main .block {
+  background-color: #0085FF;
+  border-radius: 8px;
+}
+body .main .block.cover {
+  padding-top: 30%;
+  width: 100%;
+  position: relative;
+  width: 48.0530973451%;
+}
+body .main .block.cover img, body .main .block.cover .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+body .main .block.cover img {
+  border-radius: 8px;
+}
+body .main .block h2 {
+  color: #fff;
+  margin: 38px 55px;
+}
